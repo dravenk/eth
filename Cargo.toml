@@ -1,0 +1,29 @@
+[package]
+name = "eth"
+version = "0.1.0"
+edition = "2021"
+authors = ["dravenk <longxianwen@outlook.com>"]
+description = "A simple Ethereum library for Rust"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/dravenk/eth"
+readme = "README.md"
+homepage = "https://crates.io/crates/eth"
+documentation = "https://docs.rs/eth"
+keywords = ["ethereum", "eth", "web3", "rpc", "jsonrpc"]
+categories = ["cryptography", "network-programming", "development-tools", "blockchain", "web-programming"]
+
+[badges]
+travis-ci = { repository = "dravenk/eth" }
+appveyor = { repository = "dravenk/eth" }
+codecov = { repository = "dravenk/eth" }
+coveralls = { repository = "dravenk/eth" }
+docsrs = { repository = "dravenk/eth" }
+cratesio = { repository = "dravenk/eth" }
+is-it-maintained-issue-resolution = { repository = "dravenk/eth" }
+is-it-maintained-open-issues = { repository = "dravenk/eth" }
+maintenance = { status = "actively-developed" }
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
